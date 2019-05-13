@@ -1,0 +1,177 @@
+
+body {
+color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #e9fadd;
+  position: relative;
+  padding-top: 10%;
+}
+.master {
+  text-decoration: underline;
+  /*visibility: hidden;*/
+}
+
+.moon {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 17%;
+  top: 17%;
+  width: 75px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 1rem;
+}
+.top-container h2 {
+  font-weight: normal;
+}
+
+.middle-container {
+  position: relative;
+  margin: 100px 0;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #11999E;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family:'Merriweather Sans', sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-top: dotted lightgray 7px;
+  border-bottom: none;
+  border-left: 0;
+  width: 7%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 2rem auto 3rem;
+}
+
+.profile {
+  margin: 2em auto 4em;
+}
+.profile div {
+  background: top url("../images/marion.png");
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto 2em;
+  width: 150px;
+  height: 200px;
+}
+
+.skill-row {
+  margin: 4em auto;
+  width: 60%;
+  text-align: left;
+}
+
+.computer {
+  float: left;
+  width: 25%;
+  height: 25%;
+  margin-right: 30px
+}
+.bow {
+  float: right;
+  width: 25%;
+  height: 25%;
+  margin-left: 30px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.btn {
+	-moz-box-shadow: 0px 10px 14px -7px #c6cbcc;
+	-webkit-box-shadow: 0px 10px 14px -7px #c6cbcc;
+	box-shadow: 0px 10px 14px -7px #c6cbcc;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #66BFBF), color-stop(1, #11999E));
+	background:-moz-linear-gradient(top, #66BFBF 5%, #11999E 100%);
+	background:-webkit-linear-gradient(top, #66BFBF 5%, #11999E 100%);
+	background:-o-linear-gradient(top, #66BFBF 5%, #11999E 100%);
+	background:-ms-linear-gradient(top, #66BFBF 5%, #11999E 100%);
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66BFBF', endColorstr='#11999E',GradientType=0);
+	background-color:#66BFBF;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Merriweather Sans', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+#footer-container {
+   background-color: #66BFBF;
+   margin: 4em 0 0;
+   padding: 2em 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 0 1.5em 1.5em;
+}
+
+#footer-container p {
+  color: #e9fadd;
+  font-size: .875em;
+  margin: 0;
+}
+#footer-container a {
+  color: #226b80;
+}
+#footer-container a:hover {
+  color: #e9fadd;
+}
